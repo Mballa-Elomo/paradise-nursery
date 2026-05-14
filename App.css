@@ -1,0 +1,98 @@
+/* ===== General Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== Landing Page Background ===== */
+.landing-page {
+  background-image: url('https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1600');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===== Overlay for readability ===== */
+.landing-overlay {
+  background-color: rgba(0, 0, 0, 0.45);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+/* ===== Landing Page Heading ===== */
+.landing-page h1 {
+  font-size: 3rem;
+  font-family: 'Georgia', serif;
+  color: #ffffff;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* ===== Landing Page Subheading ===== */
+.landing-page p {
+  font-size: 1.2rem;
+  color: #e0f7e9;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* ===== Call to Action Button ===== */
+.landing-page button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 14px 32px;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.landing-page button:hover {
+  background-color: #388e3c;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar h2 {
+  color: #a5d6a7;
+  font-size: 1.5rem;
+}
+
+.navbar .cart-icon {
+  color: white;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+/* ===== General Body Styling ===== */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f1f8e9;
+  color: #333;
+}
